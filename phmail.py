@@ -6,3 +6,7 @@ x=re.search("[6-9]\d{9}",s1)
 print(x.group())
 emails = re.findall(r"[A-Za-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]{2,6}", s1)
 print (emails)
+if(emails):
+        print("Valid")
+else:
+        print("Invalid")
